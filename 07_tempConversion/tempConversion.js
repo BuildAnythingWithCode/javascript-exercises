@@ -4,8 +4,8 @@ const convertToCelsius = function(inputFahrenheit) {
 };
 
 const convertToFahrenheit = function(inputCelsius) {
-  let celsius = (inputCelsius + 32) / (5 / 9);
-  return Math.round(celsius * 10) / 10;;
+  let celsius = (inputCelsius * (9 / 5)) + 32;
+  return Math.round(celsius * 10) / 10;
 };
 
 // Do not edit below this line
